@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxVerticalTextTicker-client-side-solution",
+    "id": "644329cf-8ccf-4dc1-84b1-08348f4b7092",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxVerticalTextTicker.sppkg"
+  }
+}

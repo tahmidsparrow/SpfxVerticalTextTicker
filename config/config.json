@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "emergency-response-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/emergencyResponse/EmergencyResponseWebPart.js",
+          "manifest": "./src/webparts/emergencyResponse/EmergencyResponseWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmergencyResponseWebPartStrings": "lib/webparts/emergencyResponse/loc/{locale}.js"
+  }
+}
